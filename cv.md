@@ -44,4 +44,4 @@ print(length, square)
 https://stepik.org/cert/961130)
 
 ## English
-B2 upper independent
+B2 upper intermediate
