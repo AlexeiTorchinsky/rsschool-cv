@@ -16,21 +16,26 @@ I am dependable, able to handle multiple tasks on a daily basis, ready to learn.
 
 ## Code example
 JS
-    function multiply(a, b){
-      return a * b
-    }
+```
+function multiply(a, b){
+    return a * b
+ }
 
-Python   
-    def get_circle(radius):
-        from math import pi
-        c = pi * radius * 2
-        s = pi * radius * radius
-        return c, s
+```
+Python  
 
-    r = float(input())
+```
+def get_circle(radius):
+    from math import pi
+    c = pi * radius * 2
+    s = pi * radius * radius
+    return c, s
 
-    length, square = get_circle(r)
-    print(length, square)
+r = float(input())
+
+length, square = get_circle(r)
+print(length, square)
+```
 ## Experience   
 ## Education
 1. Rostov-on-Don State University of Construction
