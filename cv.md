@@ -18,19 +18,22 @@ I am dependable, able to handle multiple tasks on a daily basis, ready to learn.
 ## Code example
 JS
 ```
-function numberOfPairs(gloves) {
-  let sorted = gloves.slice().sort();
-  let res = [];
-  for (let i = 0; i < sorted.length; i++) {
-  if (sorted[i] === sorted[i + 1]) {
-    
-    res.push(sorted[i]);
-    i++;
-  }    
- }
+//Implementing Object.create
+
+Object.create = function(prototype, properties) {
+  if (typeof prototype !== 'object' ||  prototype === undefined ){
+    throw new TypeError();
+  }
   
-  return res.length;
-} 
+  let obj = new Object;
+  obj.__proto__ = prototype;
+   if(properties !== undefined) {
+    Object.defineProperties(obj, properties);
+   }
+  
+  return obj;
+};
+
 
 ```
 Python  
