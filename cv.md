@@ -51,7 +51,7 @@ print(length, square)
 ## Education
 1. Rostov-on-Don State Construction University
    1996-2002
-2. Courses: [freeCodeCamp](https://www.freecodecamp.org/certification/fcc7d688575-99a2-42c5-b755-e37b3bbaf035/responsive-web-design), [Stepik_basic_Python](https://stepik.org/cert/961130)
+2. Courses: [freeCodeCamp](https://www.freecodecamp.org/certification/fcc7d688575-99a2-42c5-b755-e37b3bbaf035/responsive-web-design)
 
 ## English
 B2 upper intermediate
