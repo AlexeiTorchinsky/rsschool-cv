@@ -5,7 +5,7 @@
    * e-mail: alextor1005@gmail.com
    * gitHub: [AlexeiTorchinsky](https://github.com/AlexeiTorchinsky)
 ## About me
-I am dependable, able to handle multiple tasks on a daily basis, ready to learn.
+I am responsible, able to handle multiple tasks on a daily basis, ready to learn.
 
 ## Skills
    * HTML

@@ -4,9 +4,64 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,400&display=swap" rel="stylesheet">
+  <title>CV</title>
 </head>
 <body>
-  <h1>CV</h1>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#skills"> Skills</a></li>
+        <li><a href="#code">Code</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="main__about">
+        <h1>Alexei Torchinsky</h1>
+        <p>Front-end developer</p>
+        <p>Responsible front-end developer with special care on the user experience.
+          Passionate for learning new technologies and methodologies. Working in multitasking mode, attention to detail, striving for goal - this all about me. </p>
+      </section>
+      <section class="main__skills" id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS3/SCSS</li>
+          <li>JS</li>
+          <li>Git</li>
+          <li>Python(basic)</li>
+        </ul>
+      </section>
+      <section class="main__code" id="code">
+        <h2>Code</h2>
+          <pre>
+            <code>
+              //Implementing Object.create
+              Object.create = function(prototype, properties) {
+                if (typeof prototype !== 'object' ||  prototype === undefined ){
+                  throw new TypeError();
+                }
+                let obj = new Object;
+                obj.__proto__ = prototype;
+                if(properties !== undefined) {
+                  Object.defineProperties(obj, properties);
+                }
+                return obj;
+              };
+    
+            </code>
+          </pre>
+        
+      </section>
+      <section class="main__projects"  id="projects"></section>
+      <section class="main__educatin" id="education"></section>
+      <section class="main_contacts" id="contacts"></section>
+    </main>
+    <footer></footer>
+  </header>
 </body>
 </html>
