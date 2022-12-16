@@ -3,3 +3,4 @@ s (4 sloc) 45 Bytes
 *.css.map
 *.sass.map
 *.scss.map
+*.scss
