@@ -9,59 +9,75 @@
   <title>CV</title>
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#skills"> Skills</a></li>
-        <li><a href="#code">Code</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#contacts">Contacts</a></li>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="header__list">
+        <li class="header__list_item"><a href="#skills" class="header__list_link"> Skills</a></li>
+        <li class="header__list_item"><a href="#code" class="header__list_link">Code</a></li>
+        <li class="header__list_item"><a href="#projects" class="header__list_link">Projects</a></li>
+        <li class="header__list_item"><a href="#education" class="header__list_link">Education</a></li>
+        <li class="header__list_item"><a href="#contacts" class="header__list_link">Contacts</a></li>
       </ul>
     </nav>
-    <main>
-      <section class="main__about">
-        <h1>Alexei Torchinsky</h1>
-        <p>Front-end developer</p>
-        <p>Responsible front-end developer with special care on the user experience.
-          Passionate for learning new technologies and methodologies. Working in multitasking mode, attention to detail, striving for goal - this all about me. </p>
-      </section>
-      <section class="main__skills" id="skills">
-        <h2>Skills</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS3/SCSS</li>
-          <li>JS</li>
-          <li>Git</li>
-          <li>Python(basic)</li>
-        </ul>
-      </section>
-      <section class="main__code" id="code">
-        <h2>Code</h2>
-          <pre>
-            <code>
-              //Implementing Object.create
-              Object.create = function(prototype, properties) {
-                if (typeof prototype !== 'object' ||  prototype === undefined ){
-                  throw new TypeError();
-                }
-                let obj = new Object;
-                obj.__proto__ = prototype;
-                if(properties !== undefined) {
-                  Object.defineProperties(obj, properties);
-                }
-                return obj;
-              };
-    
-            </code>
-          </pre>
-        
-      </section>
-      <section class="main__projects"  id="projects"></section>
-      <section class="main__educatin" id="education"></section>
-      <section class="main_contacts" id="contacts"></section>
-    </main>
-    <footer></footer>
-  </header>
+  </header>  
+  <main>
+    <section class="main__about">
+      <h1>Alexei Torchinsky</h1>
+      <p>Front-end developer</p>
+      <p>Responsible front-end developer, passionate for learning new technologies and methodologies. Working in multitasking mode, attention to detail, striving for goal - this all about me. </p>
+    </section>
+    <section class="main__skills" id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS3/SCSS</li>
+        <li>JS</li>
+        <li>Git</li>
+        <li>Python(basic)</li>
+      </ul>
+    </section>
+    <section class="main__code" id="code">
+      <h2>Code</h2>
+        <pre>
+          <code>
+            //Implementing Object.create
+            
+            Object.create = function(prototype, properties) {
+              if (typeof prototype !== 'object' ||  prototype === undefined ){
+                throw new TypeError();
+              }
+              let obj = new Object;
+              obj.__proto__ = prototype;
+              if(properties !== undefined) {
+                Object.defineProperties(obj, properties);
+              }
+              return obj;
+            };
+          </code>
+        </pre>
+    </section>
+    <section class="main__projects"  id="projects">
+      <h2>Projects</h2>
+      <a href="https://codepen.io/Al_Tor/pen/eYegELw" target="_blank" class="project-tile">
+        <img src="https://i.ibb.co/YcvHByX/survey-Form.png" alt="survey-Form" class="project-img">
+      </a>  
+    </section>
+    <section class="main__education" id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>RS School 2023</li>
+        <li>freeCodeCamp 2022</li>
+        <li>Rostov-on-Don State Construction University 2002</li>
+      </ul>
+    </section>
+    <section class="main_contacts" id="contacts">
+      <p>telegram:<a href="https://t.me/alextorrr">@alextorrr</a></p>
+      <p>e-mail:<a href="mailto:alextor1005@gmail.com">alextor1005@gmail.com</a></p>
+    </section>
+  </main>
+  <footer>
+    <a href="https://github.com/AlexeiTorchinsky"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="github logo"></a>
+    <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="rs shool logo"></a>
+  </footer>
 </body>
 </html>
