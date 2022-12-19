@@ -418,6 +418,11 @@ body {
   max-width: 1000px;
   margin: 0 auto;
 }
+@media screen and (max-width: 650px) {
+  .main__container-about {
+    flex-direction: column;
+  }
+}
 
 .main__photo {
   width: 300px;
@@ -435,6 +440,11 @@ body {
   align-items: flex-start;
   margin-left: 5rem;
   font-size: 1.2rem;
+}
+@media screen and (max-width: 350px) {
+  .main__contacts-and-about {
+    margin-left: 10%;
+  }
 }
 
 .main__about {
@@ -514,6 +524,25 @@ body {
 .main__projects img:hover,
 .main__education img:hover {
   transform: translateY(1px);
+}
+
+pre {
+  margin: 0 auto;
+}
+@media screen and (max-width: 920px) {
+  pre code {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 625px) {
+  pre code {
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 515px) {
+  pre code {
+    font-size: 0.5rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -29,6 +29,10 @@ body {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto; 
+  @media screen and (max-width: 650px) {
+    flex-direction: column;
+    
+  }
 }
 
 // .main {
@@ -53,6 +57,10 @@ body {
     align-items: flex-start;
     margin-left: 5rem;
     font-size: 1.2rem;
+    @media screen and (max-width: 350px) {
+      margin-left: 10%;
+      
+    }
 }
 .main__about{
   margin-bottom: 2rem;
@@ -120,6 +128,23 @@ body {
     transition: all 0.2s ease 0s;
     &:hover {
       transform: translateY(1px);
+    }
+  }
+}
+pre {
+  margin: 0 auto;
+  code {
+    @media screen and (max-width: 920px) {
+      font-size: 0.7rem;
+      
+    }
+    @media screen and (max-width: 625px) {
+      font-size: 0.6rem;
+      
+    }
+    @media screen and (max-width: 515px) {
+      font-size: 0.5rem;
+      
     }
   }
 }
