@@ -6,6 +6,7 @@
    * gitHub: [AlexeiTorchinsky](https://github.com/AlexeiTorchinsky)
 ## About me
 I am responsible, able to handle multiple tasks on a daily basis, ready to learn.
+Responsible front-end developer, passionate for learning new technologies and methodologies
 
 ## Skills
    * HTML
