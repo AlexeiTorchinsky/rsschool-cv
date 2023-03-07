@@ -13,7 +13,7 @@ Responsible front-end developer, passionate for learning new technologies and me
    * CSS
    * Figma
    * Git, GitHub
-   * JS (basic)
+   * JS 
    * Python (basic)
 
 ## Code example
